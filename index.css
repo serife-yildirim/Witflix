@@ -113,8 +113,8 @@ body {
   }
   .hero iframe {
     width: 100%;
-    height: 50vh; /* Yüksekliği %50 olarak ayarlıyoruz */
-    min-height: 300px; /* Minimum yükseklik ayarı */
+    height: 50vh; 
+    min-height: 300px; 
     border: none;
   }
   .movie-details span {
@@ -285,6 +285,7 @@ body {
           width: 100%;
           justify-content: center;
           margin-top: 1rem;
+          display: none; 
       }
   
       header .user-panel {

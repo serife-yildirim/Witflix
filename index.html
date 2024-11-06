@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -10,8 +12,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="index.css"stylesheet" />
-    <title>WiTFLiX</title>
+    <link href="./index.css" rel="stylesheet" />
+    <title>WiTFLiX | Browse</title>
   </head>
   <body>
     <header>
@@ -24,7 +26,7 @@
       </nav>
       <div class="user-panel">
         <input type="text" placeholder="Search.." />
-        <i class="fa-solid fa-bell notifications fa-2x"></i>
+        <i class="fa-solid fa-bell notifications"></i>
         <img class="avatar" src="https://picsum.photos/50" />
       </div>
       <!-- Hamburger menü -->
@@ -38,7 +40,7 @@
     </header>
     <main class="hero">
       <div class="main-movie">
-        <h2>Movie Name</h2>
+        <h2>Everyhting Everywhere All At Once</h2>
         <div class="video-container">
     <iframe
       src="https://www.youtube.com/embed/wxN1T1uxQ2g"
@@ -66,17 +68,17 @@
         <button><i class="fa-solid fa-play"></i> Play Now</button>
       </div>
     </main>
-    <section class="suggestion">
+   <section class="suggestion">
       <div class="suggestion-row">
         <div class="suggestion-row-title">
           <h3>Popular Movies</h3>
           <a href="#">View All</a>
         </div>
          <div class="suggestion-movies">
-          <div class="movie-card">
- 
+          <!-- Movie Card 1 -->
+          <div class="movie-card" style="background-image: url('https://tr.web.img4.acsta.net/pictures/bzp/01/143692.jpg');">
             <div class="movie-detail-container">
-              <h4>Movie</h4>
+              <h4>Inception</h4>
               <div class="movie-info">
                 <span class="content-rating">16+</span>
                 <span class="movie-duration">2 h 21 min</span>
@@ -84,9 +86,11 @@
               <button><i class="fa-solid fa-play"></i> Play Now</button>
             </div>
           </div>
-          <div class="movie-card">
+
+          <!-- Movie Card 2 -->
+          <div class="movie-card" style="background-image: url('https://image.hurimg.com/i/hurriyet/75/382x0/5d78ff6145d2a023a0d6b578.jpg');">
             <div class="movie-detail-container">
-              <h4>Movie</h4>
+              <h4>The Fault in Our Stars</h4>
               <div class="movie-info">
                 <span class="content-rating">16+</span>
                 <span class="movie-duration">2 h 21 min</span>
@@ -94,9 +98,11 @@
               <button><i class="fa-solid fa-play"></i> Play Now</button>
             </div>
           </div>
-          <div class="movie-card">
+
+          <!-- Movie Card 3 -->
+          <div class="movie-card" style="background-image: url('https://i1.imgiz.com/listeler/WZXFMEG6BRN3U7HUJC8HFW3F2AF5F338_1527152280.PNG');">
             <div class="movie-detail-container">
-              <h4>Movie</h4>
+              <h4>The Intouchables</h4>
               <div class="movie-info">
                 <span class="content-rating">16+</span>
                 <span class="movie-duration">2 h 21 min</span>
@@ -104,9 +110,11 @@
               <button><i class="fa-solid fa-play"></i> Play Now</button>
             </div>
           </div>
-          <div class="movie-card">
+
+          <!-- Movie Card 4 -->
+          <div class="movie-card" style="background-image: url('https://tr.web.img3.acsta.net/newsv7/20/04/02/15/03/30725060.jpg');">
             <div class="movie-detail-container">
-              <h4>Movie</h4>
+              <h4>John Wick</h4>
               <div class="movie-info">
                 <span class="content-rating">16+</span>
                 <span class="movie-duration">2 h 21 min</span>
@@ -114,9 +122,11 @@
               <button><i class="fa-solid fa-play"></i> Play Now</button>
             </div>
           </div>
-          <div class="movie-card">
+
+          <!-- Movie Card 5 -->
+          <div class="movie-card" style="background-image: url('https://cdn1.ntv.com.tr/gorsel/oTuynOct8kSfEbbmyVcaiw.jpg?width=1000&mode=crop&scale=both');">
             <div class="movie-detail-container">
-              <h4>Movie</h4>
+              <h4>Ayla</h4>
               <div class="movie-info">
                 <span class="content-rating">16+</span>
                 <span class="movie-duration">2 h 21 min</span>
@@ -124,19 +134,11 @@
               <button><i class="fa-solid fa-play"></i> Play Now</button>
             </div>
           </div>
-          <div class="movie-card">
+
+          <!-- Movie Card 6 -->
+          <div class="movie-card" style="background-image: url('https://www.okculuk.com/class/INNOVAEditor/assets/aclik-oyunlari_750x422.jpg');">
             <div class="movie-detail-container">
-              <h4>Movie</h4>
-              <div class="movie-info">
-                <span class="content-rating">16+</span>
-                <span class="movie-duration">2 h 21 min</span>
-              </div>
-              <button><i class="fa-solid fa-play"></i> Play Now</button>
-            </div>
-          </div>
-          <div class="movie-card">
-            <div class="movie-detail-container">
-              <h4>Movie</h4>
+              <h4>The Hunger Games</h4>
               <div class="movie-info">
                 <span class="content-rating">16+</span>
                 <span class="movie-duration">2 h 21 min</span>
@@ -146,6 +148,80 @@
           </div>
         </div>
       </div>
+
+      <div class="suggestion-row">
+        <div class="suggestion-row-title">
+          <h3>Recommended for You</h3>
+          <a href="#">View All</a>
+        </div>
+        <div class="suggestion-movies">
+          <!-- Repeat similar card structure for Recommended movies section -->
+           <div class="movie-card" style="background-image: url('https://upload.wikimedia.org/wikipedia/tr/1/11/IMG_0439.jpeg');">
+    
+            <div class="movie-detail-container">
+              <h4>La Case De Papel</h4>
+              <div class="movie-info">
+                <span class="content-rating">16+</span>
+                <span class="movie-duration">2 h 21 min</span>
+              </div>
+              <button><i class="fa-solid fa-play"></i> Play Now</button>
+            </div>
+          </div>
+
+           <div class="movie-card" style="background-image: url('https://img.fullhdfilmizlesene.de/poster/original/fullhd-1917-hd-izle.jpg');">
+            <div class="movie-detail-container">
+              <h4>1917</h4>
+              <div class="movie-info">
+                <span class="content-rating">16+</span>
+                <span class="movie-duration">2 h 21 min</span>
+              </div>
+              <button><i class="fa-solid fa-play"></i> Play Now</button>
+            </div>
+          </div>
+             <div class="movie-card" style="background-image: url('https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');">
+            <div class="movie-detail-container">
+              <h4>Deadpool & Wolverine</h4>
+              <div class="movie-info">
+                <span class="content-rating">16+</span>
+                <span class="movie-duration">2 h 21 min</span>
+              </div>
+              <button><i class="fa-solid fa-play"></i> Play Now</button>
+            </div>
+          </div>
+          
+                  <div class="movie-card" style="background-image: url('https://i0.wp.com/www.mediapeephole.com/wp-content/uploads/2024/08/bad-boys-ride-or-die-hollywood-movie.jpg');">
+            <div class="movie-detail-container">
+              <h4>Bad Boys Ride or Die</h4>
+              <div class="movie-info">
+                <span class="content-rating">16+</span>
+                <span class="movie-duration">2 h 21 min</span>
+              </div>
+              <button><i class="fa-solid fa-play"></i> Play Now</button>
+            </div>
+          </div>
+         
+          <div class="movie-card" style="background-image: url('https://img.fullhdfilmizlesene.de/poster/film/furiosa-bir-mad-max-destani-furiosa-a-mad-max-saga-94392.jpg');">
+            <div class="movie-detail-container">
+              <h4>Furiosa</h4>
+              <div class="movie-info">
+                <span class="content-rating">16+</span>
+                <span class="movie-duration">2 h 21 min</span>
+              </div>
+              <button><i class="fa-solid fa-play"></i> Play Now</button>
+            </div>
+          </div>
+        
+   
+          <div class="movie-card" style="background-image: url('https://www.denizcilikbilgileri.com/wp-content/uploads/2017/01/zor-saatler.jpg');">
+            <div class="movie-detail-container">
+              <h4>The Fınest Hours</h4>
+              <div class="movie-info">
+                <span class="content-rating">16+</span>
+                <span class="movie-duration">1 h 45 min</span>
+              </div>
+              <button><i class="fa-solid fa-play"></i> Play Now</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -157,7 +233,8 @@
           <a href="">FAQ</a>
           <a href="">Watch List</a>
         </nav>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula ex id dolor feugiat, sed tempor libero elementum. Nulla facilisi. 
+</p>
       </div>
       <div class="social-navigation">
         <h5>Follow Us</h5>
